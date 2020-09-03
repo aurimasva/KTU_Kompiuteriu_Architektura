@@ -1,0 +1,17 @@
+[Files List]
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\std/src/standard.vhd=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\std/src/textio.vhd=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\ieee/src/numeric_std.vhdl=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\ieee/src/numeric_std-body.vhdl=S
+c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1/src/flg.vhd=S
+c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1/src/reg.vhd=S
+c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1/src/cnt.vhd=S
+c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1/src/n_rom.vhd=S
+c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1/src/alu_s.vhd=S
+c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1/src/mux.vhd=S
+c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1/src/n_ctrl.vhd=S
+c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1/src/n_top.vhd=S
+c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1/src/stimulai-top_tb.vhd=S
+c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1/src/TestBench/top_TB.vhd=S

@@ -1,0 +1,627 @@
+acom -O3 -e 100 -work L1 -2002  $dsn/src/n_rom.vhd $dsn/src/reg.vhd $dsn/src/cnt.vhd $dsn/src/mux.vhd $dsn/src/n_ctrl.vhd $dsn/src/flg.vhd $dsn/src/alu_s.vhd $dsn/src/n_top.vhd $dsn/src/stimulai-top_tb.vhd $dsn/src/TestBench/top_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\n_rom.vhd
+# Compile Entity "ROM"
+# Compile Architecture "rtl" of Entity "ROM"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\reg.vhd
+# Compile Entity "REG"
+# Compile Architecture "rtl" of Entity "REG"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\cnt.vhd
+# Compile Entity "CNT"
+# Compile Architecture "rtl" of Entity "CNT"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\mux.vhd
+# Compile Entity "MUX"
+# Compile Architecture "rtl" of Entity "MUX"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\n_ctrl.vhd
+# Compile Entity "CTRL"
+# Compile Architecture "rtl" of Entity "CTRL"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\flg.vhd
+# Compile Entity "FLG"
+# Compile Architecture "rtl" of Entity "FLG"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\alu_s.vhd
+# Compile Entity "ALU_s"
+# Compile Architecture "rtl" of Entity "ALU_s"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\n_top.vhd
+# Compile Entity "TOP"
+# Compile Architecture "struct" of Entity "top"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\stimulai-top_tb.vhd
+# Compile Entity "top_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "top_tb"
+# Compile Configuration "TESTBENCH_FOR_top"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\TestBench\top_TB.vhd
+# Compile Entity "top_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "top_tb"
+# Warning: COMP96_0994: Multiple architecture "TB_ARCHITECTURE" of entity "top_tb" found in "c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\TestBench\top_TB.vhd", "c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\stimulai-top_tb.vhd".
+# Compile Configuration "TESTBENCH_FOR_top"
+# Warning: COMP96_0994: Multiple configuration "TESTBENCH_FOR_top" found in "c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\TestBench\top_TB.vhd", "c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\stimulai-top_tb.vhd".
+# Compile success 0 Errors 2 Warnings  Analysis time :  1.0 [s]
+SetActiveLib -work
+comp -include "$dsn\src\n_top.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\n_top.vhd
+# Compile Entity "TOP"
+# Compile Architecture "struct" of Entity "top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+comp -include "$dsn\src\TestBench\top_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\TestBench\top_TB.vhd
+# Compile Entity "top_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "top_tb"
+# Compile Configuration "TESTBENCH_FOR_top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+asim +access +r TESTBENCH_FOR_top 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7265 kB (elbread=1280 elab2=5834 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\wave.asdb
+#  12:50 AM, Thursday, September 26, 2019
+#  Simulation has been initialized
+wave 
+wave -noreg CLK
+wave -noreg RST
+wave -noreg Din
+wave -noreg MAIN_Dout
+wave -noreg S_Done   
+wave /top_tb/UUT/sREG_A_Dout  
+wave /top_tb/UUT/sREG_B_Dout
+wave /top_tb/UUT/sREG_C_Dout
+wave /top_tb/UUT/sREG_D_Dout
+wave /top_tb/UUT/sREG_E_Dout
+wave /top_tb/UUT/sREG_F_Dout 
+wave /top_tb/UUT/CTRL1/N_ADDR
+wave /top_tb/UUT/CTRL1/C_ADDR
+wave /top_tb/UUT/CTRL1/LS
+wave /top_tb/UUT/CNT1/CNT_A 
+# 
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\top_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_top 
+# 15 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/Users/aurvar2/OneDrive - Kaunas University of Technology/3 Semestras/KA/L1/L1/L1/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Neteisinga ALU komanda
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /top_tb/UUT/ALU1,  Process: line__32.
+# EXECUTION:: WARNING: Neteisinga ALU komanda
+# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /top_tb/UUT/ALU1,  Process: line__32.
+endsim
+# KERNEL: stopped at time: 1997925 ns
+# VSIM: Simulation has finished.
+SetActiveLib -work
+comp -include "$dsn\src\n_top.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\n_top.vhd
+# Compile Entity "TOP"
+# Compile Architecture "struct" of Entity "top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+comp -include "$dsn\src\TestBench\top_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\TestBench\top_TB.vhd
+# Compile Entity "top_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "top_tb"
+# Compile Configuration "TESTBENCH_FOR_top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim +access +r TESTBENCH_FOR_top 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7265 kB (elbread=1280 elab2=5834 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\wave.asdb
+#  12:51 AM, Thursday, September 26, 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/aurvar2/OneDrive - Kaunas University of Technology/3 Semestras/KA/L1/L1/L1/src/wave.asdb'.
+wave 
+wave -noreg CLK
+wave -noreg RST
+wave -noreg Din
+wave -noreg MAIN_Dout
+wave -noreg S_Done   
+wave /top_tb/UUT/sREG_A_Dout  
+wave /top_tb/UUT/sREG_B_Dout
+wave /top_tb/UUT/sREG_C_Dout
+wave /top_tb/UUT/sREG_D_Dout
+wave /top_tb/UUT/sREG_E_Dout
+wave /top_tb/UUT/sREG_F_Dout 
+wave /top_tb/UUT/CTRL1/N_ADDR
+wave /top_tb/UUT/CTRL1/C_ADDR
+wave /top_tb/UUT/CTRL1/LS
+wave /top_tb/UUT/CNT1/CNT_A 
+# 
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\top_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_top 
+# 15 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/Users/aurvar2/OneDrive - Kaunas University of Technology/3 Semestras/KA/L1/L1/L1/src/wave.asdb'.
+run 1000 ns
+# EXECUTION:: WARNING: Neteisinga ALU komanda
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /top_tb/UUT/ALU1,  Process: line__32.
+# EXECUTION:: WARNING: Neteisinga ALU komanda
+# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /top_tb/UUT/ALU1,  Process: line__32.
+# KERNEL: stopped at time: 1 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7265 kB (elbread=1280 elab2=5834 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\wave.asdb
+#  1:15 AM, Thursday, September 26, 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/aurvar2/OneDrive - Kaunas University of Technology/3 Semestras/KA/L1/L1/L1/src/wave.asdb'.
+run 5000 ns
+# EXECUTION:: WARNING: Neteisinga ALU komanda
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /top_tb/UUT/ALU1,  Process: line__32.
+# EXECUTION:: WARNING: Neteisinga ALU komanda
+# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /top_tb/UUT/ALU1,  Process: line__32.
+# KERNEL: stopped at time: 5 us
+acom -O3 -e 100 -work L1 -2002  $dsn/src/n_rom.vhd $dsn/src/reg.vhd $dsn/src/cnt.vhd $dsn/src/mux.vhd $dsn/src/n_ctrl.vhd $dsn/src/flg.vhd $dsn/src/alu_s.vhd $dsn/src/n_top.vhd $dsn/src/stimulai-top_tb.vhd $dsn/src/TestBench/top_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\n_rom.vhd
+# Compile Entity "ROM"
+# Compile Architecture "rtl" of Entity "ROM"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\reg.vhd
+# Compile Entity "REG"
+# Compile Architecture "rtl" of Entity "REG"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\cnt.vhd
+# Compile Entity "CNT"
+# Compile Architecture "rtl" of Entity "CNT"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\mux.vhd
+# Compile Entity "MUX"
+# Compile Architecture "rtl" of Entity "MUX"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\n_ctrl.vhd
+# Compile Entity "CTRL"
+# Compile Architecture "rtl" of Entity "CTRL"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\flg.vhd
+# Compile Entity "FLG"
+# Compile Architecture "rtl" of Entity "FLG"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\alu_s.vhd
+# Compile Entity "ALU_s"
+# Compile Architecture "rtl" of Entity "ALU_s"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\n_top.vhd
+# Compile Entity "TOP"
+# Compile Architecture "struct" of Entity "top"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\stimulai-top_tb.vhd
+# Compile Entity "top_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "top_tb"
+# Compile Configuration "TESTBENCH_FOR_top"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\TestBench\top_TB.vhd
+# Compile Entity "top_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "top_tb"
+# Warning: COMP96_0994: Multiple architecture "TB_ARCHITECTURE" of entity "top_tb" found in "c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\TestBench\top_TB.vhd", "c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\stimulai-top_tb.vhd".
+# Compile Configuration "TESTBENCH_FOR_top"
+# Warning: COMP96_0994: Multiple configuration "TESTBENCH_FOR_top" found in "c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\TestBench\top_TB.vhd", "c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\stimulai-top_tb.vhd".
+# Compile success 0 Errors 2 Warnings  Analysis time :  0.6 [s]
+SetActiveLib -work
+comp -include "$dsn\src\n_top.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\n_top.vhd
+# Compile Entity "TOP"
+# Compile Architecture "struct" of Entity "top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\TestBench\top_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\TestBench\top_TB.vhd
+# Compile Entity "top_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "top_tb"
+# Compile Configuration "TESTBENCH_FOR_top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+asim +access +r TESTBENCH_FOR_top 
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7265 kB (elbread=1280 elab2=5834 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\wave.asdb
+#  1:42 AM, Thursday, September 26, 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/aurvar2/OneDrive - Kaunas University of Technology/3 Semestras/KA/L1/L1/L1/src/wave.asdb'.
+wave 
+wave -noreg CLK
+wave -noreg RST
+wave -noreg Din
+wave -noreg MAIN_Dout
+wave -noreg S_Done   
+wave /top_tb/UUT/sREG_A_Dout  
+wave /top_tb/UUT/sREG_B_Dout
+wave /top_tb/UUT/sREG_C_Dout
+wave /top_tb/UUT/sREG_D_Dout
+wave /top_tb/UUT/sREG_E_Dout
+wave /top_tb/UUT/sREG_F_Dout 
+wave /top_tb/UUT/CTRL1/N_ADDR
+wave /top_tb/UUT/CTRL1/C_ADDR
+wave /top_tb/UUT/CTRL1/LS
+wave /top_tb/UUT/CNT1/CNT_A 
+# 
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\top_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_top 
+# 15 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/Users/aurvar2/OneDrive - Kaunas University of Technology/3 Semestras/KA/L1/L1/L1/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Neteisinga ALU komanda
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /top_tb/UUT/ALU1,  Process: line__32.
+# EXECUTION:: WARNING: Neteisinga ALU komanda
+# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /top_tb/UUT/ALU1,  Process: line__32.
+restart
+endsim
+# KERNEL: stopped at time: 4802345 ns
+# VSIM: Simulation has finished.
+SetActiveLib -work
+comp -include "$dsn\src\n_top.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\n_top.vhd
+# Compile Entity "TOP"
+# Compile Architecture "struct" of Entity "top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+comp -include "$dsn\src\TestBench\top_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\TestBench\top_TB.vhd
+# Compile Entity "top_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "top_tb"
+# Compile Configuration "TESTBENCH_FOR_top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim +access +r TESTBENCH_FOR_top 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7265 kB (elbread=1280 elab2=5834 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\wave.asdb
+#  1:43 AM, Thursday, September 26, 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/aurvar2/OneDrive - Kaunas University of Technology/3 Semestras/KA/L1/L1/L1/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'c:/Users/aurvar2/OneDrive - Kaunas University of Technology/3 Semestras/KA/L1/L1/L1/src/wave.asdb'.
+wave 
+wave -noreg CLK
+wave -noreg RST
+wave -noreg Din
+wave -noreg MAIN_Dout
+wave -noreg S_Done   
+wave /top_tb/UUT/sREG_A_Dout  
+wave /top_tb/UUT/sREG_B_Dout
+wave /top_tb/UUT/sREG_C_Dout
+wave /top_tb/UUT/sREG_D_Dout
+wave /top_tb/UUT/sREG_E_Dout
+wave /top_tb/UUT/sREG_F_Dout 
+wave /top_tb/UUT/CTRL1/N_ADDR
+wave /top_tb/UUT/CTRL1/C_ADDR
+wave /top_tb/UUT/CTRL1/LS
+wave /top_tb/UUT/CNT1/CNT_A 
+# 
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\top_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_top 
+# 15 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/Users/aurvar2/OneDrive - Kaunas University of Technology/3 Semestras/KA/L1/L1/L1/src/wave.asdb'.
+run 1000 ns
+# EXECUTION:: WARNING: Neteisinga ALU komanda
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /top_tb/UUT/ALU1,  Process: line__32.
+# EXECUTION:: WARNING: Neteisinga ALU komanda
+# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /top_tb/UUT/ALU1,  Process: line__32.
+# KERNEL: stopped at time: 1 us
+acom -O3 -e 100 -work L1 -2002  $dsn/src/n_rom.vhd $dsn/src/reg.vhd $dsn/src/cnt.vhd $dsn/src/mux.vhd $dsn/src/n_ctrl.vhd $dsn/src/flg.vhd $dsn/src/alu_s.vhd $dsn/src/n_top.vhd $dsn/src/stimulai-top_tb.vhd $dsn/src/TestBench/top_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\n_rom.vhd
+# Compile Entity "ROM"
+# Compile Architecture "rtl" of Entity "ROM"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\reg.vhd
+# Compile Entity "REG"
+# Compile Architecture "rtl" of Entity "REG"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\cnt.vhd
+# Compile Entity "CNT"
+# Compile Architecture "rtl" of Entity "CNT"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\mux.vhd
+# Compile Entity "MUX"
+# Compile Architecture "rtl" of Entity "MUX"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\n_ctrl.vhd
+# Compile Entity "CTRL"
+# Compile Architecture "rtl" of Entity "CTRL"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\flg.vhd
+# Compile Entity "FLG"
+# Compile Architecture "rtl" of Entity "FLG"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\alu_s.vhd
+# Compile Entity "ALU_s"
+# Compile Architecture "rtl" of Entity "ALU_s"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\n_top.vhd
+# Compile Entity "TOP"
+# Compile Architecture "struct" of Entity "top"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\stimulai-top_tb.vhd
+# Compile Entity "top_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "top_tb"
+# Compile Configuration "TESTBENCH_FOR_top"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\TestBench\top_TB.vhd
+# Compile Entity "top_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "top_tb"
+# Warning: COMP96_0994: Multiple architecture "TB_ARCHITECTURE" of entity "top_tb" found in "c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\TestBench\top_TB.vhd", "c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\stimulai-top_tb.vhd".
+# Compile Configuration "TESTBENCH_FOR_top"
+# Warning: COMP96_0994: Multiple configuration "TESTBENCH_FOR_top" found in "c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\TestBench\top_TB.vhd", "c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\stimulai-top_tb.vhd".
+# Compile success 0 Errors 2 Warnings  Analysis time :  0.5 [s]
+SetActiveLib -work
+comp -include "$dsn\src\n_top.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\n_top.vhd
+# Compile Entity "TOP"
+# Compile Architecture "struct" of Entity "top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+comp -include "$dsn\src\TestBench\top_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\TestBench\top_TB.vhd
+# Compile Entity "top_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "top_tb"
+# Compile Configuration "TESTBENCH_FOR_top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+asim +access +r TESTBENCH_FOR_top 
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7265 kB (elbread=1280 elab2=5834 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\wave.asdb
+#  1:47 AM, Thursday, September 26, 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/Users/aurvar2/OneDrive - Kaunas University of Technology/3 Semestras/KA/L1/L1/L1/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'c:/Users/aurvar2/OneDrive - Kaunas University of Technology/3 Semestras/KA/L1/L1/L1/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'c:/Users/aurvar2/OneDrive - Kaunas University of Technology/3 Semestras/KA/L1/L1/L1/src/wave.asdb'.
+wave 
+wave -noreg CLK
+wave -noreg RST
+wave -noreg Din
+wave -noreg MAIN_Dout
+wave -noreg S_Done   
+wave /top_tb/UUT/sREG_A_Dout  
+wave /top_tb/UUT/sREG_B_Dout
+wave /top_tb/UUT/sREG_C_Dout
+wave /top_tb/UUT/sREG_D_Dout
+wave /top_tb/UUT/sREG_E_Dout
+wave /top_tb/UUT/sREG_F_Dout 
+wave /top_tb/UUT/CTRL1/N_ADDR
+wave /top_tb/UUT/CTRL1/C_ADDR
+wave /top_tb/UUT/CTRL1/LS
+wave /top_tb/UUT/CNT1/CNT_A 
+# 
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\top_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_top 
+# 15 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/Users/aurvar2/OneDrive - Kaunas University of Technology/3 Semestras/KA/L1/L1/L1/src/wave.asdb'.
+run 1000 ns
+# EXECUTION:: WARNING: Neteisinga ALU komanda
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /top_tb/UUT/ALU1,  Process: line__32.
+# EXECUTION:: WARNING: Neteisinga ALU komanda
+# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /top_tb/UUT/ALU1,  Process: line__32.
+# KERNEL: stopped at time: 1 us
+acom -O3 -e 100 -work L1 -2002  $dsn/src/n_rom.vhd $dsn/src/reg.vhd $dsn/src/cnt.vhd $dsn/src/mux.vhd $dsn/src/n_ctrl.vhd $dsn/src/flg.vhd $dsn/src/alu_s.vhd $dsn/src/n_top.vhd $dsn/src/stimulai-top_tb.vhd $dsn/src/TestBench/top_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\n_rom.vhd
+# Compile Entity "ROM"
+# Compile Architecture "rtl" of Entity "ROM"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\reg.vhd
+# Compile Entity "REG"
+# Compile Architecture "rtl" of Entity "REG"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\cnt.vhd
+# Compile Entity "CNT"
+# Compile Architecture "rtl" of Entity "CNT"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\mux.vhd
+# Compile Entity "MUX"
+# Compile Architecture "rtl" of Entity "MUX"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\n_ctrl.vhd
+# Compile Entity "CTRL"
+# Compile Architecture "rtl" of Entity "CTRL"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\flg.vhd
+# Compile Entity "FLG"
+# Compile Architecture "rtl" of Entity "FLG"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\alu_s.vhd
+# Compile Entity "ALU_s"
+# Compile Architecture "rtl" of Entity "ALU_s"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\n_top.vhd
+# Compile Entity "TOP"
+# Compile Architecture "struct" of Entity "top"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\stimulai-top_tb.vhd
+# Compile Entity "top_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "top_tb"
+# Compile Configuration "TESTBENCH_FOR_top"
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\TestBench\top_TB.vhd
+# Compile Entity "top_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "top_tb"
+# Warning: COMP96_0994: Multiple architecture "TB_ARCHITECTURE" of entity "top_tb" found in "c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\TestBench\top_TB.vhd", "c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\stimulai-top_tb.vhd".
+# Compile Configuration "TESTBENCH_FOR_top"
+# Warning: COMP96_0994: Multiple configuration "TESTBENCH_FOR_top" found in "c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\TestBench\top_TB.vhd", "c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\stimulai-top_tb.vhd".
+# Compile success 0 Errors 2 Warnings  Analysis time :  0.4 [s]
+SetActiveLib -work
+comp -include "$dsn\src\n_top.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\n_top.vhd
+# Compile Entity "TOP"
+# Compile Architecture "struct" of Entity "top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+comp -include "$dsn\src\TestBench\top_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\TestBench\top_TB.vhd
+# Compile Entity "top_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "top_tb"
+# Compile Configuration "TESTBENCH_FOR_top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+asim +access +r TESTBENCH_FOR_top 
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7265 kB (elbread=1280 elab2=5834 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\wave.asdb
+#  1:48 AM, Thursday, September 26, 2019
+#  Simulation has been initialized
+wave 
+wave -noreg CLK
+wave -noreg RST
+wave -noreg Din
+wave -noreg MAIN_Dout
+wave -noreg S_Done   
+wave /top_tb/UUT/sREG_A_Dout  
+wave /top_tb/UUT/sREG_B_Dout
+wave /top_tb/UUT/sREG_C_Dout
+wave /top_tb/UUT/sREG_D_Dout
+wave /top_tb/UUT/sREG_E_Dout
+wave /top_tb/UUT/sREG_F_Dout 
+wave /top_tb/UUT/CTRL1/N_ADDR
+wave /top_tb/UUT/CTRL1/C_ADDR
+wave /top_tb/UUT/CTRL1/LS
+wave /top_tb/UUT/CNT1/CNT_A 
+# 
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\top_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_top 
+# 15 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/Users/aurvar2/OneDrive - Kaunas University of Technology/3 Semestras/KA/L1/L1/L1/src/wave.asdb'.
+run 1000 ns
+# EXECUTION:: WARNING: Neteisinga ALU komanda
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /top_tb/UUT/ALU1,  Process: line__32.
+# EXECUTION:: WARNING: Neteisinga ALU komanda
+# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /top_tb/UUT/ALU1,  Process: line__32.
+# KERNEL: stopped at time: 1 us
+# Waveform file 'untitled.awc' connected to 'c:/Users/aurvar2/OneDrive - Kaunas University of Technology/3 Semestras/KA/L1/L1/L1/src/untitled.asdb'.
+# Adding file c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\untitled.asdb ... Done
+# Adding file c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\untitled.awc ... Done
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7265 kB (elbread=1280 elab2=5834 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\aurvar2\OneDrive - Kaunas University of Technology\3 Semestras\KA\L1\L1\L1\src\wave.asdb
+#  1:52 AM, Thursday, September 26, 2019
+#  Simulation has been initialized
+run 4000 ns
+# EXECUTION:: WARNING: Neteisinga ALU komanda
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /top_tb/UUT/ALU1,  Process: line__32.
+# EXECUTION:: WARNING: Neteisinga ALU komanda
+# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /top_tb/UUT/ALU1,  Process: line__32.
+# KERNEL: stopped at time: 4 us
+endsim
+# VSIM: Simulation has finished.
